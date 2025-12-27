@@ -5,7 +5,8 @@ from django.shortcuts import HttpResponseRedirect
 from django.urls import reverse_lazy
 from django.views.generic import TemplateView, RedirectView
 
-from .forms import UserRegistrationForm
+from .forms import UserRegistrationForm, UserAddressForm
+
 
 
 User = get_user_model()
